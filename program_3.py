@@ -1,8 +1,13 @@
-def calculate_total_purchase():
-    # A customer in a store is purchasing five items.  
-    # Write a program that asks for each item, 
-    # then displays the subtotal of the sale, 
-    # the amount of sales tax, and the total.  
-    # Assume the sales tax is 7 percent.
+milk=3
+eggs=4
+butter=4 
+bread=5
+bananas=2
+subtotal=(milk+eggs+butter+bread+bananas)
+tax=(subtotal/100*7)
+total=(subtotal+tax)
+print (subtotal)
+print (tax)
+print (total)
 
-calculate_total_purchase()
+    
